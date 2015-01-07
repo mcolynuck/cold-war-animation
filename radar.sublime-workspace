@@ -229,35 +229,23 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/Development/devel/www/samples/bubbles",
-		"/C/Development/devel/www/samples/bubbles/assets",
-		"/C/Development/devel/www/samples/bubbles/assets/css",
-		"/C/Development/devel/www/samples/bubbles/assets/css/1-tools/bourbon",
-		"/C/Development/devel/www/samples/bubbles/assets/css/1-tools/neat",
-		"/C/Development/devel/www/samples/bubbles/assets/css/1-tools/neat/settings",
-		"/C/Development/devel/www/samples/bubbles/assets/css/2-base",
-		"/C/Development/devel/www/samples/bubbles/assets/css/3-modules",
-		"/C/Development/devel/www/samples/bubbles/assets/img"
-	],
 	"file_history":
 	[
-		"/C/Development/devel/www/samples/bubbles/assets/css/main.css",
-		"/C/Development/devel/www/samples/bubbles/assets/css/2-base/_base.sass",
+		"/C/Development/devel/www/samples/radar/assets/css/main.css",
+		"/C/Development/devel/www/samples/radar/assets/css/2-base/_base.sass",
 		"/C/Development/devel/www/samples/speedometer/css/styles.sass",
 		"/C/Development/devel/www/samples/bourbon/css/3-layouts/links.sass",
-		"/C/Development/devel/www/samples/bubbles/assets/css/1-tools/neat/settings/_visual-grid.scss",
-		"/C/Development/devel/www/samples/bubbles/assets/css/3-modules/_-modules-index.sass",
-		"/C/Development/devel/www/samples/bubbles/assets/css/3-modules/sections.sass",
-		"/C/Development/devel/www/samples/bubbles/assets/css/1-tools/neat/settings/_grid.scss",
+		"/C/Development/devel/www/samples/radar/assets/css/1-tools/neat/settings/_visual-grid.scss",
+		"/C/Development/devel/www/samples/radar/assets/css/3-modules/_-modules-index.sass",
+		"/C/Development/devel/www/samples/radar/assets/css/3-modules/sections.sass",
+		"/C/Development/devel/www/samples/radar/assets/css/1-tools/neat/settings/_grid.scss",
 		"/C/Development/DevTips-Starter-Kit-master/assets/css/1-tools/_-tools-index.sass",
-		"/C/Development/devel/www/samples/bubbles/assets/css/1-tools/_-tools-index.sass",
+		"/C/Development/devel/www/samples/radar/assets/css/1-tools/_-tools-index.sass",
 		"/C/Development/devel/www/samples/bourbon/css/0-plugins/plugins-dir.sass",
 		"/C/Development/devel/www/samples/bourbon/css/3-layouts/home.sass",
 		"/C/Development/devel/www/samples/speedometer/css/layouts/lexus.sass",
-		"/C/Development/devel/www/samples/bubbles/assets/css/pulse.scss",
-		"/C/Development/devel/www/samples/bubbles/assets/css/main.sass",
+		"/C/Development/devel/www/samples/radar/assets/css/pulse.scss",
+		"/C/Development/devel/www/samples/radar/assets/css/main.sass",
 		"/C/Development/devel/www/samples/speedometer/css/layouts/speedo.sass",
 		"/C/Windows/System32/drivers/etc/hosts",
 		"/C/Development/xampp/apache/conf/extra/httpd-vhosts.conf.drivebc",
@@ -270,16 +258,16 @@
 		"/C/Development/devel/www/samples/bourbon/css/app.sass",
 		"/C/Development/devel/www/samples/hubifi/css/3-layouts/layouts-dir.sass",
 		"/C/Development/devel/www/samples/hubifi/css/3-layouts/item1.sass",
-		"/C/Development/devel/www/samples/bubbles/README.md",
-		"/C/Development/devel/www/samples/bubbles/index_old.html",
+		"/C/Development/devel/www/samples/radar/README.md",
+		"/C/Development/devel/www/samples/radar/index_old.html",
 		"/C/Development/devel/www/samples/speedometer/index.html",
-		"/C/Development/devel/www/samples/bubbles/.gitignore",
-		"/C/Development/devel/www/samples/bubbles/css/styles.scss",
-		"/C/Development/devel/www/samples/bubbles/js/functions.js",
+		"/C/Development/devel/www/samples/radar/.gitignore",
+		"/C/Development/devel/www/samples/radar/css/styles.scss",
+		"/C/Development/devel/www/samples/radar/js/functions.js",
 		"/C/Development/devel/www/samples/hubifi/css/3-layouts/item3.sass",
 		"/C/Development/devel/www/samples/index.html",
 		"/C/Development/devel/www/samples/FrontEndTest/css/layouts/base.sass",
-		"/C/Development/devel/www/samples/bubbles/bubbles.sublime-project",
+		"/C/Development/devel/www/samples/radar/radar.sublime-project",
 		"/C/Development/devel/www/drivewhere/db/schema.rb",
 		"/C/Development/devel/www/drivewhere/docs/postgres_setup.txt",
 		"/D/My Documents/DriveWhere/TomTom_LiveTrafficInfo.txt",
@@ -849,7 +837,8 @@
 							"codeintel_tooltips": "popup",
 							"open_with_edit": true,
 							"sublime_auto_complete": true,
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -900,7 +889,7 @@
 	{
 		"height": 0.0
 	},
-	"project": "bubbles.sublime-project",
+	"project": "radar.sublime-project",
 	"replace":
 	{
 		"height": 48.0
