@@ -1,0 +1,132 @@
++font-face(AmericanCaptain, "../fonts/American Captain Patrius 02 FRE")
+
+body
+	background: #49494C
+	color: #A29EB5
+	font-family: 'AmericanCaptain'
+
+#banner
+	padding-left: 100px
+	padding-right: 100px
+
+.radar-map
+	background: url("../img/dew-line.jpg")
+	background-repeat: no-repeat
+	background-size: 100%
+	width: 1500px
+	height: 1000px
+	position: relative
+	margin: 0 auto
+
+	.b52
+		background: url("../img/r_b521.png")
+		width: 200px
+		height: 150px
+		background-size: 100%
+		position: absolute
+		top: 700px
+		left: 1000px
+		z-index: 3
+
+		&.flyover
+			+animation(fly 16s linear infinite)
+
+	.radar
+		background: url("../img/radar_stn.png")
+		background-size: 100%
+		width: 30px
+		height: 30px
+		position: absolute
+		z-index: 1
+		+animation(spin-rev 8s infinite)
+
+		&:after
+			z-index: 2
+			opacity: 0
+			content: url("../img/radiate.png")
+			position: absolute
+			margin-left: -115px
+			margin-top: -130px
+			+animation(pulse 7s infinite)
+		
+		// Delays for radiate animation
+		&.delay-0:after
+			+animation-delay(1ms)
+
+		&.delay-1:after
+			+animation-delay(1000ms)
+
+		&.delay-2:after
+			+animation-delay(2000ms)
+
+		&.delay-3:after
+			+animation-delay(3000ms)
+
+		&.delay-4:after
+			+animation-delay(4000ms)
+
+	// Positions of each radar station
+	.stn-1
+		top: 360px
+		left: 250px
+
+	.stn-2
+		top: 440px
+		left: 320px
+
+	.stn-3
+		top: 470px
+		left: 400px
+
+	.stn-4
+		top: 475px
+		left: 520px
+
+	.stn-5
+		top: 440px
+		left: 650px
+
+	.stn-6
+		top: 400px
+		left: 750px
+
+	.stn-7
+		top: 370px
+		left: 820px
+
+
++keyframes(pulse)
+	0%
+		+transform(scale(0))
+		opacity: 0.1
+	70%
+		opacity: 0.4
+	100%
+		+transform(scale(1))
+		opacity: 0
+
++keyframes(fly)
+	0%
+		+transform(rotate(60deg))
+		opacity: 0.1
+	5%
+		opacity: 1
+	25%
+		+transform(translateX(-350px) translateY(-200px) rotate(55deg))
+	50%
+		+transform(translateX(-600px) translateY(-350px) rotate(40deg))
+	75%
+		+transform(translateX(-800px) translateY(-450px) rotate(20deg))
+		opacity: 1
+	100%
+		+transform(translateX(-1000px) translateY(-500px) rotate(10deg))
+		opacity: 0.4
+
+
++keyframes(spin-rev)
+	0%
+		+transform(rotate(0deg))
+	50%
+		+transform(rotate(-60deg))
+	100%
+		+transform(rotate(0deg))
