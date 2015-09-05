@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"sped",
+				"Speedometers"
+			],
+			[
+				"option",
+				"option>  (element)"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"text-d",
+				"text-decoration:   (property)"
+			],
+			[
 				"inner",
 				"innerWidth  (variable)"
 			],
@@ -229,8 +245,23 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Development/devel/www/samples/radar",
+		"/C/Development/devel/www/samples/radar/assets",
+		"/C/Development/devel/www/samples/radar/assets/css",
+		"/C/Development/devel/www/samples/radar/assets/css/3-modules"
+	],
 	"file_history":
 	[
+		"/C/Development/devel/www/samples/assets/data/samples.json",
+		"/C/Development/devel/www/samples/assets/css/3-modules/gallery.sass",
+		"/C/Development/devel/www/samples/index.html",
+		"/C/Development/devel/www/samples/assets/css/main.css",
+		"/C/Development/devel/www/samples/assets/css/3-modules/_-modules-index.sass",
+		"/C/Development/devel/www/samples/assets/css/2-base/_-base-index.sass",
+		"/C/Development/devel/www/samples/TestPage.html",
+		"/C/Development/devel/www/samples/radar/radar.sublime-workspace",
 		"/C/Development/devel/www/samples/radar/assets/css/main.css",
 		"/C/Development/devel/www/samples/radar/assets/css/2-base/_base.sass",
 		"/C/Development/devel/www/samples/speedometer/css/styles.sass",
@@ -265,7 +296,6 @@
 		"/C/Development/devel/www/samples/radar/css/styles.scss",
 		"/C/Development/devel/www/samples/radar/js/functions.js",
 		"/C/Development/devel/www/samples/hubifi/css/3-layouts/item3.sass",
-		"/C/Development/devel/www/samples/index.html",
 		"/C/Development/devel/www/samples/FrontEndTest/css/layouts/base.sass",
 		"/C/Development/devel/www/samples/radar/radar.sublime-project",
 		"/C/Development/devel/www/drivewhere/db/schema.rb",
@@ -351,14 +381,7 @@
 		"/D/devel/Ruby200/lib/ruby/gems/2.0.0/gems/rake-10.3.2/lib/rake/private_reader.rb",
 		"/D/devel/Ruby200/lib/ruby/gems/2.0.0/gems/rake-10.3.2/lib/rake/runtest.rb",
 		"/D/devel/Ruby200/lib/ruby/gems/2.0.0/gems/rake-10.3.2/lib/rake/contrib/sshpublisher.rb",
-		"/D/devel/Ruby200/lib/ruby/gems/2.0.0/gems/rake-10.3.2/lib/rake/ext/module.rb",
-		"/D/devel/Ruby200/lib/ruby/gems/2.0.0/gems/rake-10.3.2/rakelib/test_times.rake",
-		"/D/devel/Ruby200/lib/ruby/gems/2.0.0/gems/rake-10.3.2/lib/rake/contrib/compositepublisher.rb",
-		"/D/devel/Ruby200/lib/ruby/gems/2.0.0/gems/rake-10.3.2/doc/command_line_usage.rdoc",
-		"/D/devel/Ruby200/lib/ruby/gems/2.0.0/gems/rake-10.3.2/doc/rakefile.rdoc",
-		"/D/devel/www/drivewhere/app/views/events/tablefilter_example.html",
-		"/D/devel/www/drivewhere/app/views/events/examples_EN.htm",
-		"/D/devel/www/drivewhere/app/views/events/index.html.erb"
+		"/D/devel/Ruby200/lib/ruby/gems/2.0.0/gems/rake-10.3.2/lib/rake/ext/module.rb"
 	],
 	"find":
 	{
@@ -393,6 +416,11 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			".gallery",
+			"gallery-info",
+			"]",
+			"[",
+			"radar",
 			"font-family",
 			"build",
 			"mapdiv",
@@ -515,12 +543,7 @@
 			".set(",
 			"infoWindow",
 			"enableMarkerListener",
-			"enableDragDropListener",
-			"dragend",
-			"addMarkerWithInfo",
-			"link",
-			"confirm_user_access",
-			"event_params"
+			"enableDragDropListener"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -528,6 +551,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"}",
+			"{",
 			"editMap",
 			"coordsElm",
 			"enableMarkerClickListener",
@@ -578,7 +603,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -594,8 +619,8 @@
 						"selection":
 						[
 							[
-								927,
-								927
+								982,
+								929
 							]
 						],
 						"settings":
@@ -710,7 +735,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -726,8 +751,8 @@
 						"selection":
 						[
 							[
-								146,
-								146
+								155,
+								155
 							]
 						],
 						"settings":
@@ -844,7 +869,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -892,7 +917,7 @@
 	"project": "radar.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -931,7 +956,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 271.0,
+	"side_bar_width": 209.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
